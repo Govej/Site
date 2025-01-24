@@ -1,4 +1,4 @@
-﻿analytics:
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -63,9 +63,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: https://twitter.com/MyTwitterAccount
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: https://facebook.com/MyFacebookAccount
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -82,7 +82,7 @@ frontpage_cards:
       cursus est sed dapibus.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: https://example.com
     rule_color: ''
   - title: Nam vestibulum
     content: |
@@ -90,7 +90,7 @@ frontpage_cards:
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: https://example.com
     rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
@@ -98,7 +98,7 @@ frontpage_goals_grid:
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -187,10 +187,10 @@ menu:
     dropdown: []
   - path: /faq
     translation_key: menu.faq
-    dropdown: []  
+    dropdown: []
   - path: /about
     translation_key: menu.about
-    dropdown: []    
+    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -207,7 +207,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+remote_data_prefix: https://govej.github.io/Data/
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -222,8 +222,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+repository_url_data: https://github.com/open-sdg/open-sdg-data-starter
+repository_url_site: https://github.com/Govej/Data
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
@@ -239,4 +239,4 @@ time_series_attributes:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
-use_new_config_forms: true 
+use_new_config_forms: true
