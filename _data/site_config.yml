@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Brod
+  adjective: Brod
 create_goals:
   previous_next_links: false
   goals: []
@@ -96,8 +96,8 @@ frontpage_goals_grid:
   title: frontpage.heading_short
   description: frontpage.instructions_shorter
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+  title: Brod & Stats
+  description: All your Brod stats here
 goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 goal_image_extension: ''
 goals_page:
@@ -191,6 +191,10 @@ menu:
   - path: /about
     translation_key: menu.about
     dropdown: []
+  - path: /followerdata
+    translation_key: followerdata
+    dropdown: []
+  
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -222,8 +226,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: https://github.com/open-sdg/open-sdg-data-starter
-repository_url_site: https://github.com/Govej/Data
+repository_url_data: https://github.com/Govej/Data
+repository_url_site: https://github.com/Govej/Site
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
