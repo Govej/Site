@@ -244,7 +244,7 @@ remote_data_prefix: https://govej.github.io/Data/
 reporting_status:
   title: status.reporting_status
   description: status.description
-  disaggregation_tabs: false
+  disaggregation_tabs: true
   status_types:
     - value: complete
       label: status.reported_online
